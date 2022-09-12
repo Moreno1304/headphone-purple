@@ -1,4 +1,18 @@
 .product {
-    background-color: green;
     grid-area: product;
+    color: #76045D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product__price {
+    background-color: white;
+    font-size: 2rem;
+    width: 200px;
+    height: 50px;
+    display: grid;
+    font-weight: 700;
+    place-items: center;
 }

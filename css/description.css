@@ -1,4 +1,15 @@
 .description {
-    background-color: tomato;
     grid-area: description;
+    color: #D5B9CF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description__title {
+    font-size: 6rem;
+}
+
+.description__text {
+    font-size: 1.5rem;
 }
