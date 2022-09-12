@@ -14,31 +14,18 @@ body {
 
 header {
     grid-area: header;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.menu {
-    height: 100px;
-    width: 100px;
-    background-color: black;
-    color: white;
-    display: grid;
-    place-items: center;
-    font-size: 2.5rem;
-}
-
-.search {
-    color: white;
-    transform: rotate(90deg);
-    font-size: 2rem;
+    padding-right: 100px;
 }
 
 main {
-    background-color: red;
     grid-area: main;
+    display: grid;
+    grid-template-areas: "description product social";
+    grid-template-columns: 380px 1fr 48px;
+    padding: 0 100px;
 }
 
 footer {
